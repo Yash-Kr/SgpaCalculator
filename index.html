@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Mali:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sgpa Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="d1"><h1>Sgpa Calculator <img src="calculator.png" alt=""> </h1></div>
+        
+        <h3>Please select your grades as per your assumption based on your performance in the subject.</h3>
+        <form class="form" action="/">
+            <table>
+                <tr>
+                    <td class="table-heading">SUBJECT</td>
+                    <td class="table-heading">GRADES</td>
+                </tr>
+                <tr>
+                    <td>Design And Analysis of Algorithms</td>
+                    <td>
+                        <select id="daa">
+                            <option value="10">A+</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Operating System</td>
+                    <td>
+                        <select id="os">
+                            <option value="10">A+</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Formal Languages and Automata Theory</td>
+                    <td>
+                        <select id="flat">
+                            <option value="10">A+</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Computer Architecture</td>
+                    <td>
+                        <select id="ca">
+                            <option value="10">A+</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Object Oriented System Development</td>
+                    <td>
+                        <select id="oosd">
+                            <option value="10">A+</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Open-Elective/Moocs/Nptel</td>
+                    <td>
+                        <select id="moocs">
+                            <option value="10">A+</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Operating Systems Lab</td>
+                    <td>
+                        <select id="oslab">
+                            <option value="10">A+</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Algorithms Lab</td>
+                    <td>
+                        <select id="algolab">
+                            <option value="10">A+</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input class="button" type="submit" value="Calculate Sgpa"></td>
+                    <td id="sgpa"></td>
+                </tr>
+            </table>
+        </form>
+
+        <p>Made With <span>&hearts;</span>  by YASH.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

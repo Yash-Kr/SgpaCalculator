@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    border: 2px solid #21094e;
+    background-image: linear-gradient(to right, #e4fbff, #edeef7);
+    height: 100vh;
+}
+.container{ 
+    text-align: center;
+}
+
+h1,p{
+    font-family: 'Julius Sans One', sans-serif;
+}
+img{
+    max-width: 40px;
+    position: relative;
+    top: 5px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.form{
+    margin: 0 10%;
+    max-width: 80%;
+    background-color: white;
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+table{
+    min-height: 70vh;
+    font-family: 'Mali', cursive;
+}
+
+.table-heading{
+    background-color: #e4efe7;
+}
+
+.button{
+    min-width: 25%;
+    font-family: monospace;
+}
+p{
+    margin-top: 10vh;
+}
+span{
+    color: red;
+}

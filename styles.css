@@ -45,6 +45,7 @@ table{
 }
 p{
     margin-top: 10vh;
+    padding bottom: 2px;
 }
 span{
     color: red;

@@ -19,6 +19,7 @@ $(document).ready(function(){
     let total_points = 4*dbms + 4*cn + 3*cd + 3*ai + 3*mpc + 3*moocs + 1*dbmslab + 1*cnlab + 1*cdlab + 1*ailab ;
     let sgpa = total_points/24;
  
+    console.log(total_points);
     console.log(sgpa.toFixed(2));
     $("#sgpa").html(sgpa.toFixed(2));
     event.preventDefault();

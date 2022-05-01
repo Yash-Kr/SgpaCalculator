@@ -10,8 +10,8 @@ $(document).ready(function(){
     let cg = $('#cg option:selected').val();
     let bc = $('#bc option:selected').val();
     let moocs = $('#moocs option:selected').val(); 
-    let cglab = $('#dbmslab option:selected').val();
-    let selab = $('#cnlab option:selected').val();
+    let cglab = $('#cglab option:selected').val();
+    let selab = $('#selab option:selected').val();
 
     
     

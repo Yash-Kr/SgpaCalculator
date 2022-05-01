@@ -3,21 +3,21 @@ $(document).ready(function(){
   $(".form").submit(function()
   {
 
-    let dbms = $('#dbms option:selected').val();  
-    let cn = $('#cn option:selected').val();
-    let cd = $('#cd option:selected').val();
-    let ai = $('#ai option:selected').val(); 
-    let mpc = $('#mpc option:selected').val();
+    let mp = $('#mp option:selected').val();  
+    let dmw = $('#dmw option:selected').val();
+    let is = $('#is option:selected').val();
+    let se = $('#se option:selected').val(); 
+    let cg = $('#cg option:selected').val();
+    let bc = $('#bc option:selected').val();
     let moocs = $('#moocs option:selected').val(); 
-    let dbmslab = $('#dbmslab option:selected').val();
-    let cnlab = $('#cnlab option:selected').val();
-    let cdlab = $('#cdlab option:selected').val();
-    let ailab = $('#ailab option:selected').val();
+    let cglab = $('#dbmslab option:selected').val();
+    let selab = $('#cnlab option:selected').val();
+
     
     
   
-    let total_points = 4*dbms + 4*cn + 3*cd + 3*ai + 3*mpc + 3*moocs + 1*dbmslab + 1*cnlab + 1*cdlab + 1*ailab ;
-    let sgpa = total_points/24;
+    let total_points = 6*mp + 4*dmw + 3*is + 3*se + 3*cg + 3*bc + 3*moocs + 1*cglab + 1*selab ;
+    let sgpa = total_points/27;
  
     console.log(total_points);
     console.log(sgpa.toFixed(2));

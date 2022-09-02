@@ -4,20 +4,22 @@ $(document).ready(function(){
   {
 
     let mp = $('#mp option:selected').val();  
-    let dmw = $('#dmw option:selected').val();
-    let is = $('#is option:selected').val();
-    let se = $('#se option:selected').val(); 
-    let cg = $('#cg option:selected').val();
-    let bc = $('#bc option:selected').val();
+    let iot = $('#iot option:selected').val();
+    let ds = $('#ds option:selected').val();
+    let cry = $('#cry option:selected').val(); 
+    let cv = $('#cv option:selected').val();
+    let nlp = $('#nlp option:selected').val();
+    let rs = $('#rs option:selected').val();
+    let iotlab = $('#iotlab option:selected').val();
     let moocs = $('#moocs option:selected').val(); 
-    let cglab = $('#cglab option:selected').val();
-    let selab = $('#selab option:selected').val();
+    let summer = $('#summer option:selected').val();
+    let seminar = $('#seminar option:selected').val();
 
     
     
   
-    let total_points = 6*mp + 4*dmw + 3*is + 3*se + 3*cg + 3*bc + 3*moocs + 1*cglab + 1*selab ;
-    let sgpa = total_points/27;
+    let total_points = 6*mp + 3*iot + 3*ds + 3*cry + 3*cv + 3*nlp + 3*rs + 3*moocs + 1*iotlab + 1*summer + 1*seminar ;
+    let sgpa = total_points/24;
  
     console.log(total_points);
     console.log(sgpa.toFixed(2));
